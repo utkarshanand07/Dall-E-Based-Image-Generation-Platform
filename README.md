@@ -34,17 +34,20 @@ This is a full-stack image generation platform built using React (with Vite), Ex
 ```bash
 git clone https://github.com/utkarshanand07/Dall-E-Based-Image-Generation-Platform.git
 cd Dall-E-Based-Image-Generation-Platform
+```
 
 2. Install Dependencies
 For the frontend (React + Vite)
 ```bash
 cd client
 npm install
+```
 
 For the backend (Express)
 ```bash
 cd ../server
 npm install
+```
 
 3. Set Up Environment Variables
 Create a .env file in the server directory and add the following variables:
@@ -63,12 +66,15 @@ OPENAI_API_KEY=<your_openai_api_key>
 
 # Server port
 PORT=5000
+```
+
 4. Running the Project
 Start the backend server
 
 ```bash
 cd server
 npm run dev
+```
 
 Start the frontend (Vite React app)
 In a separate terminal:
@@ -76,6 +82,7 @@ In a separate terminal:
 ```bash
 cd client
 npm run dev
+```
 
 The backend will be running on http://localhost:5000 and the frontend will be running on http://localhost:5173.
 
