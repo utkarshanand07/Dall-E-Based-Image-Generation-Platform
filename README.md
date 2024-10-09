@@ -36,7 +36,7 @@ git clone https://github.com/utkarshanand07/Dall-E-Based-Image-Generation-Platfo
 cd Dall-E-Based-Image-Generation-Platform
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 For the frontend (React + Vite)
 ```bash
 cd client
@@ -49,7 +49,7 @@ cd ../server
 npm install
 ```
 
-3. Set Up Environment Variables
+### 3. Set Up Environment Variables
 Create a .env file in the server directory and add the following variables:
 
 ```bash
@@ -68,7 +68,7 @@ OPENAI_API_KEY=<your_openai_api_key>
 PORT=5000
 ```
 
-4. Running the Project
+### 4. Running the Project
 Start the backend server
 
 ```bash
@@ -86,7 +86,7 @@ npm run dev
 
 The backend will be running on http://localhost:5000 and the frontend will be running on http://localhost:5173.
 
-5. Usage
+### 5. Usage
 Open the frontend at http://localhost:5173 in your browser.
 Use the input field to type a prompt and generate images using OpenAI's DALL·E model.
 The generated image will be displayed on the page, and the most recent images will be stored in MongoDB and displayed on the homepage.
